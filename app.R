@@ -17,29 +17,6 @@ years <- c(unique(df_new$Year))
 
 
 app <- Dash$new(external_stylesheets = dbcThemes$BOOTSTRAP)
-# app$layout(
-#   dbcContainer(
-#   div(
-#     list(
-#       dbcRow(list(
-#                h1("Olympics Data Analysis")
-#               )
-#       ),
-#       dbcRow(
-#         list(
-#           dbcCol(
-#                  list(
-#                    dccGraph(id = "bar_chart"),
-#                    ,
-#
-#                   )
-#                 )
-#           )
-#           ),
-#         )
-#       )
-#   )
-# ))
 
 app$layout(
   dbcContainer(
